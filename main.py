@@ -1,14 +1,12 @@
+from tasks import add_task, show_tasks
+
 name = input("whats your name ? ")
 print(f"welcome {name}")
-
-tasks = []
 
 while True:
     title = input("enter task (or type 'exit' to finish) : ")
     if title == "exit":
         break
-    tasks.append(title)
+    add_task(title)
 
-print("your tasks:")
-for task in tasks:
-    print("-", task)
+show_tasks()
