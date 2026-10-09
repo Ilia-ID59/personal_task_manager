@@ -7,3 +7,6 @@ __pycache__/
 
 # task file
 tasks.txt
+
+# private envoriment file
+.env
