@@ -164,7 +164,7 @@ tasks saved
 ## Demo
 
 
-![Demo](gifs/ِDemo.gif)
+![Demo](gifs/demo.gif)
 
 ## Roadmap
 
