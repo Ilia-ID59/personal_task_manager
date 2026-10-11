@@ -10,3 +10,6 @@ tasks.txt
 
 # private envoriment file
 .env
+
+# settings
+.vscode/
