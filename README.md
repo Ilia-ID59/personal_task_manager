@@ -140,12 +140,14 @@ do u want to open admin mode ? yes/no : no
 whats your name ? Ilia
 welcome Ilia
 enter a task (or type 'exit' to finish) : go to fixe car
+priority (low/medium/high) : high
 enter a task (or type 'exit' to finish) : type code python
+priority (low/medium/high) : medium
 enter a task (or type 'exit' to finish) : exit
 
 your tasks :
-- go to fixe car
-- type code python
+- go to fixe car | priority: high
+- type code python | priority: medium
 tasks saved
 ```
 
