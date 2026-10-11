@@ -19,10 +19,16 @@ print(f"welcome {name}")
 tasks = load_tasks()
 
 while True:
-    task = input("enter a task (or type 'exit' to finish) : ")
-    if task.lower() == "exit":
+    title = input("enter a task (or type 'exit' to finish) : ")
+    if title.lower() == "exit":
         break
-    add_task(tasks, task)
+
+    priority = input("priority (low/medium/high) : ").lower()
+    while priority != "low" and priority != "medium" and priority != "high":
+        print("invalid priority, choose low, medium or high")
+        priority = input("priority (low/medium/high) : ").lower()
+
+    add_task(tasks, title, priority)
     save_tasks(tasks)
 
 show_tasks(tasks)
